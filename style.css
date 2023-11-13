@@ -1,0 +1,169 @@
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+}
+
+.decodificador {
+    position: relative; 
+    display: flex;
+    gap: 82px;
+    padding: 0% 0% 0% 7%;
+    height: 100%;
+    margin: 0% 2%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.decodificador_conteudo {
+    width: 65px;
+    display: flex;
+}
+
+.decodificador_conteudo_formulario {
+    display: flex;
+    flex-direction: column;   
+
+
+}
+
+#decodificar {
+    box-shadow: none;
+    outline: none;
+    border: none;
+    background-color: #000000;
+    width: 700px;
+    height: 200px;
+    resize: none;
+    font-size: 2rem;
+    color: #00FF7F;
+
+}
+
+
+.decodificador_conteudo_furmalario_aviso {
+    font-weight: 200;
+    display: flex;
+    font-size: 15px;
+    color: #00FF7F;
+
+}
+
+textarea::placeholder {
+	background-color: #000000;
+    font-size: 60px;
+    color: 	 #00FF7F;
+}
+
+.decodificador_conteudo_formulario_botao {
+	background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+
+}
+
+.decodificador_conteudo_formulario_botao_criptografar {
+    background-color: #00FF7F;
+    direction: none;
+    padding: 3% 20%;
+    border: none;
+    border-radius: 16px;
+    border: 2px solid #00FF7F;
+    font-weight: 600;
+}
+
+.decodificador_conteudo_formulario_botao_criptografar:hover {
+    background-color: #000000;
+    color: #00FF7F;
+}
+
+.decodificador_conteudo_formulario_botao_descriptografar {
+ 	background-color: #00FF7F;
+    direction: none;
+    padding: 2% 20%;
+    border: none;
+    border-radius: 16px;
+    border: 2px solid #00FF7F;
+    color: #000000;
+    font-weight: 600;
+}
+
+.decodificador_conteudo_formulario_botao_descriptografar:hover {
+
+    background-color: #FFFF00;
+
+}
+
+
+.decodificador_resultado {
+
+    background-color: #000000;
+    border-radius: 16px;
+    padding: 5% 1%;
+    width: 35%;
+    transform: translate(160%, -40%);
+
+}
+
+#digito {
+    font-size: 2rem;
+    word-wrap: break-word;
+    background-color: #000000;
+    color: #00FF7F;
+}
+
+.decodificador_resultado_img {
+    width: 90%;
+
+}
+
+.decodificador_resultado_mensagem_nenhuma {
+ 
+    font-weight: 600;
+
+}
+
+.decodificador_resultado_mensagem_digite {
+    font-weight: 300;
+    color: #00FF7F;
+}
+
+.decodificador_resultado_botao_copia {
+    background-color:#000000;
+    border-radius: 16px;
+    padding: 6% 25%;
+    border: 2px solid #00FF7F;
+    color: #00FF7F;
+    font-weight: 600;
+    align-items: center;
+    margin: 20%;
+}
+
+.decodificador_resultado_botao_copia:hover {
+
+    background-color: #FFFF00;
+
+}
+
+.rodape {
+    flex-shrink: 0;
+    padding: 1px;
+    background-color: #000000;
+    text-align: center;
+}
+
+.rodape_creditos {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #00FF7F;
+
+
+}
+
